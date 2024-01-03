@@ -1,0 +1,70 @@
+.borderRad15 {
+  border-radius: 15%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  padding: 24px;
+}
+body {
+  background-color: #f6e58d;
+  color: #30336b;
+}
+.branding {
+  padding: 25px;
+}
+.branding-img {
+  display: block;
+  margin: 0 auto;
+}
+img {
+  border-radius: 15%;
+}
+.products {
+  padding: 32px;
+}
+.menu {
+  font-size: 20px;
+  margin: 0 auto 24px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width:767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+@media (min-width:768px) and (max-width:1023px) {
+  .container {
+    max-width: 80%;
+  }
+}
+.contact-info {
+  margin-top: 36px;
+}
+.contact-info-div {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-info-social {
+  padding: 10px;
+  margin-left: 60px;
+}
+.contact-info-social:hover {
+  transform: scale(1.3);
+}
